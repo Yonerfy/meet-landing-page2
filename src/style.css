@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Red Hat Display', Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,20 +19,24 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem; */
   text-align: center;
+  overflow-x: hidden;
 }
 
+.main-content, .footer-container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.img-container {
+  max-width: 1120px;
+}
 /* color  */
 .cyan-600 {
   color: #4D96A9;
@@ -67,15 +74,15 @@ body {
   letter-spacing: 0;
 }
 .text-preset-3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 110%;
   font-weight: 900;
   letter-spacing: .25rem;
 }
 .text-preset-4 {
   font-size: 1.125rem;
-  line-height: 110%;
-  font-weight: 900;
+  line-height: 140%;
+  font-weight: 500;
   letter-spacing: 0;
 }
 .text-preset-5 {
@@ -85,4 +92,5 @@ body {
   letter-spacing: .25rem;
   letter-spacing: 0;
 }
+
 

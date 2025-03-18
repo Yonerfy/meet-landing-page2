@@ -1,0 +1,22 @@
+<script>
+     export default {
+        name: 'Footer'
+    }
+</script>
+
+<template>
+    <footer class="relative bg-[url(./assets/image-footer.jpg)] bg-no-repeat bg-cover">
+        <div class="absolute inset-0 bg-[#4D96A9] opacity-90 z-0"></div>
+        <div class="footer-container px-[5em] py-[7em] z-10 relative flex justify-between">
+            <div class="col-title">
+                <h4 class="text-preset-2 text-white text-left">Experience more<br> together</h4>
+            </div>
+            <div class="col-par">
+                <p class="text-white text-preset-4 w-[20em] text-left">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+            </div>
+            <div class="col-button">
+                <button class="btn px-6 py-3 bg-[#855FB1] rounded-full text-preset-5 text-white">Download <span class="text-[#8FE3F9]">v1.3</span></button>
+            </div>
+        </div>
+    </footer>
+</template>
