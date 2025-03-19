@@ -4,7 +4,7 @@
 This HTML & CSS only challenge is perfect if you're starting to get a bit comfortable with your layout skills. The responsive layout shifts will also be a great test!
 
 ![Design](landing-page-screen.png)
-[live version]()
+[live version](https://yonerfy.github.io/meet-landing-page-live/)
 
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
