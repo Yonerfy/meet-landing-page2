@@ -6,13 +6,13 @@ export default {
 
 
 <template>
-    <div class="logo flex justify-center my-[7em]">
-        <img src="../assets/logo.svg" alt="page logo">
+    <div class="logo flex justify-center md:my-[7em] my-[3em]">
+        <img src="./../assets/logo.svg" alt="page logo">
     </div>
 
-    <div class="w-[1440px] mx-auto flex justify-between mt-[4em]">
+    <div class="xl:w-[1440px] mx-auto flex justify-between mt-[4em] hero-container">
         <div class="img-left">
-            <img src="../assets/image-hero-left.png" alt="">
+            <img src="./../assets/image-hero-left.png" alt="">
         </div>
         <div class="hero-text mx-[2em]">
             <h1 class="text-preset-1 mb-[0.5em] slate-900">Group Chat<br/>for Everyone</h1>

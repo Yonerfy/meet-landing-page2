@@ -93,4 +93,57 @@ body {
   letter-spacing: 0;
 }
 
+@media (max-width: 1024px) {
+  .hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "img-left img-right"
+      "hero-text hero-text";
+    justify-items: center;
+  }
+
+  .img-left {
+    grid-area: img-left;
+  }
+  .img-right {
+    grid-area: img-right;
+  }
+  .hero-text {
+    grid-area: hero-text;
+  }
+  .text-preset-1 {
+    font-size: 3em;
+  }
+  .hero-text {
+    margin-top: 4.5em;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-container {
+    justify-content: center;
+  }
+ 
+  .text-preset-3 {
+    font-size: 1rem;
+  }
+  .text-preset-2 {
+    font-size: 2rem;
+  }
+  .text-preset-1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media(max-width: 500px) {
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
